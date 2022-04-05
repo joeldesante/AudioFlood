@@ -1,3 +1,6 @@
+//go:build linux && amd64 && go1.15 && !cgo
+// +build linux,amd64,go1.15,!cgo
+
 // demo package simulating a realtime generation and processing.
 // Start the example from your terminal and type a letter + enter.
 package main
